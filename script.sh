@@ -1,14 +1,14 @@
 ## ssh into AWS EC2 instance
-sudo ssh -i /home/mzawadi/Downloads/plutus.pem ubuntu@18.225.11.247
+sudo ssh -i /home/m/Downloads/PEM-FILE ubuntu@INSTANCE-IP-ADDRESS
 
 ##cd into projects folder
 cd /var/www/
 
 ##clone repo into aws instance
-git clone https://www.github.com/AllanM007/tawi-api
+git clone https://www.github.com/AllanM007/repository-name
 
 ## unzip repo
-unzip tawi-api
+unzip repository-name
 
 ##cd into project folder
-cd tawi-api/
+cd repository-name
